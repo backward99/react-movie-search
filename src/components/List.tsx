@@ -5,7 +5,7 @@ export default function List({
   onItemClick,
 }: {
   items: Movies;
-  onItemClick;
+  onItemClick: (id: string) => void;
 }) {
   return (
     <ul className="list__container">

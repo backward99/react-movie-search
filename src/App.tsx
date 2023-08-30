@@ -67,7 +67,7 @@ function App() {
         throw new Error("store api호출 오류");
       }
 
-      return res.data;
+      // return res.data;
     } catch (error) {
       if (error instanceof Error) {
         alert(error.message);
