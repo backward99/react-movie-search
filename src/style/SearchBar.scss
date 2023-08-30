@@ -1,0 +1,32 @@
+.search {
+  margin-bottom: 3rem;
+  &__container {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+    border: 1px solid black;
+    border-radius: 3rem;
+    display: flex;
+    padding: 0.5rem 2rem;
+  }
+
+  &__title {
+    min-width: 10%;
+    flex: 1 auto;
+    border: none;
+    outline: none;
+  }
+
+  &__button {
+    margin-right: 1rem;
+    flex-grow: 0;
+    cursor: pointer;
+    &:last-child {
+      margin-right: 0;
+    }
+    &--right {
+      margin-left: auto;
+    }
+  }
+}

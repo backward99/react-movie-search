@@ -1,0 +1,31 @@
+.list.page {
+  animation: active 700ms;
+
+  @keyframes active {
+    from {
+      opacity: 0;
+      transform: translateX(10vw);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+      transition: opacity 700ms, transform 700ms;
+    }
+  }
+}
+
+.list:not(.page) {
+  animation: end 700ms;
+
+  @keyframes end {
+    from {
+      opacity: 1;
+      transform: translateX(0vw);
+    }
+    to {
+      opacity: 0;
+      transform: translateX(-10vw);
+      transition: opacity 700ms, transform 700ms;
+    }
+  }
+}
