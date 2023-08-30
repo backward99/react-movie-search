@@ -107,8 +107,8 @@ function App() {
     title: "기능 설명",
     contents: [
       { content: "영어로 영화 제목 검색" },
-      { content: "이전 검색 내용으로 돌아가기" },
-      { content: "처음 화면으로 돌아가기" },
+      { content: "뒤로가기" },
+      { content: "앞으로가기" },
     ],
   };
 
